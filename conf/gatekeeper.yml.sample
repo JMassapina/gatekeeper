@@ -1,0 +1,16 @@
+# ASA
+device_user: gatekeeper
+device_password: mypassword
+device_secret: SuchSecret
+device_address: myfirewall.company.com
+
+hipchat_enabled: false
+hipchat_room_id: 12345
+
+server_endpoint: http://stuff.myvcom-ano.com/gatekeeper/update
+
+lock_file: /tmp/gatekeeper.lock
+cache_file: /tmp/cache.db
+
+# How many times will we suffer connection errors to the ASA, before we give up?
+max_attempts: 25

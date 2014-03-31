@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'psych'
+gem 'lockfile'
+gem 'cisco'
+gem 'aws-sdk'
+gem 'hashery'
+gem 'logger'
+gem 'logger-colors'
+gem 'addressable'
